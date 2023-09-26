@@ -87,6 +87,10 @@ img {
   display: none;
 }
 
+.nav.nav-disabled {
+  display: none;
+}
+
 .container-modal-tour {
   font-size: 18px;
   width: 100%;
@@ -99,7 +103,6 @@ img {
   justify-content: center;
   margin: 0;
   display: none;
-  
 }
 
 
@@ -410,22 +413,3 @@ input {
   }
 }
 
-.nav{
-  display: flex;
-}
-
-#btn-modal:checked ~ .nav {
-  display: none;
-}
-
-#btn-modal-tour:checked ~ .nav {
-  display: none;
-}
-
-#btn-modal-signup:checked ~ .nav {
-  display: none;
-}
-
-#btn-modal-store:checked ~ .nav {
-  display: none;
-}
