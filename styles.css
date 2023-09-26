@@ -312,7 +312,6 @@ input {
   border-bottom: 1px solid greenyellow;
   padding-bottom: 20px;
   margin-bottom: 10px;
-
 }
 
 .producto-img {
@@ -330,15 +329,14 @@ input {
   width: auto;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   font-size: 20px;
   max-height: 400px; /* Set a max height to enable scrolling */
   overflow-y: auto; /* Enable vertical scrollbar */
 }
 
-.productos-lista::-webkit-scrollbar{
+.productos-lista::-webkit-scrollbar {
   width: 7px;
-  
 }
 
 .productos {
@@ -354,11 +352,11 @@ input {
   text-align: center;
 }
 
-.banner-img{
+.banner-img {
   height: 290px;
 }
 
-.banner{
+.banner {
   position: relative;
   display: grid;
   grid-template-columns: auto;
@@ -368,40 +366,34 @@ input {
   border-bottom: solid 2px greenyellow;
 }
 
-.banner-text{
+.banner-text {
   position: absolute;
   bottom: 10px;
   right: 0px;
   font-size: 70px;
-  
 }
 
-@media (max-width: 630px){
-
-  .banner-img{
-    height: 230px;
+@media (max-width: 630px) {
+  .banner-img {
+    height: 160px;
   }
 
-  .banner-text{
+  .banner-text {
     font-size: 55px;
   }
 
-  .content-modal{
+  .content-modal {
     width: 300px;
   }
 
-  .content-modal{
-    width: 480px;
+  .content-modal {
+    width: 330px;
   }
-  .tour{
-    font-size: 15px;
+  .tour {
+    font-size: 10px;
   }
 
- 
-
-  .productos-lista{
-    grid-template-columns: auto;  }
-
-  
+  .productos-lista {
+    grid-template-columns: auto;
+  }
 }
-
