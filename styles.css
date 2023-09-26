@@ -27,6 +27,7 @@ body {
   right: 0;
 }
 
+
 li {
   cursor: pointer;
   font-size: 20px;
@@ -72,6 +73,7 @@ img {
   display: none;
 }
 
+
 .container-modal {
   width: 100%;
   height: 100vh;
@@ -99,6 +101,9 @@ img {
   display: none;
   
 }
+
+
+
 
 .container-modal-signup {
   width: 100%;
@@ -227,6 +232,7 @@ a:hover {
 #btn-modal-store:checked ~ .container-modal-store {
   display: flex;
 }
+
 
 .cerrar-modal {
   width: 100%;
@@ -402,4 +408,24 @@ input {
   .productos-lista {
     grid-template-columns: auto;
   }
+}
+
+.nav{
+  display: flex;
+}
+
+#btn-modal:checked ~ .nav {
+  display: none;
+}
+
+#btn-modal-tour:checked ~ .nav {
+  display: none;
+}
+
+#btn-modal-signup:checked ~ .nav {
+  display: none;
+}
+
+#btn-modal-store:checked ~ .nav {
+  display: none;
 }
