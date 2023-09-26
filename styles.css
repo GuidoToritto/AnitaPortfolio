@@ -12,6 +12,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 .info {
@@ -74,7 +75,8 @@ img {
 .container-modal {
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.815);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,19 +89,22 @@ img {
   font-size: 18px;
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.815);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
   display: none;
+  
 }
 
 .container-modal-signup {
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.815);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +116,8 @@ img {
 .container-modal-store {
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.815);
   display: flex;
   flex-direction: column;
   align-items: center;
