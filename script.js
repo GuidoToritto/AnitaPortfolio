@@ -1,12 +1,14 @@
 function toggleNavClass() {
     var nav = document.querySelector('.nav');
-    var modalCheckbox = document.getElementById('btn-modal');
+    nav.classList.toggle('nav-active');
+}
 
-    // Escuchar el evento de cambio en el checkbox de la ventana modal
-    modalCheckbox.addEventListener('change', function () {
-        if (!modalCheckbox.checked) {
-            // Habilitar nuevamente la apertura de la ventana modal
-            nav.classList.remove('nav-disabled');
-        }
-    });
+function hideNav() {
+    var nav = document.querySelector('.nav');
+    nav.style.display = 'none';
+}
+
+function showNav() {
+    var nav = document.querySelector('.nav');
+    nav.style.display = 'flex'; // Set the appropriate display property (e.g., flex, block, etc.)
 }

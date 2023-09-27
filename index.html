@@ -16,21 +16,21 @@
         </div>
         <div class="info">
             <div class="boton-modal">
-                <label for="btn-modal" onclick="toggleNavClass()">
+                <label for="btn-modal" onclick="toggleNavClass(), hideNav()">
                     MUSIC
                 </label>
             </div>
             <div class="boton-modal">
-                <label for="btn-modal-tour" onclick="toggleNavClass()">
+                <label for="btn-modal-tour" onclick="toggleNavClass(),  hideNav()">
                     TOUR
                 </label>
             </div>
-            <div class="boton-modal" onclick="toggleNavClass()">
+            <div class="boton-modal" onclick="toggleNavClass(),  hideNav()">
                 <label for="btn-modal-signup">
                     SIGN UP
                 </label>
             </div>
-            <div class="boton-modal" onclick="toggleNavClass()">
+            <div class="boton-modal" onclick="toggleNavClass(),  hideNav()">
                 <label for="btn-modal-store">
                     STORE
                 </label>
@@ -72,8 +72,8 @@
                 <p>To receive news about concerts <a href="#">click here</a></p>
             </div>
             <br>
-            <div class="btn-cerrar">
-                <label for="btn-modal">Cerrar</label>
+            <div class="btn-cerrar" onclick="showNav()">
+                <label for="btn-modal" >Cerrar</label>
             </div>
         </div>
         <label for="btn-modal" class="cerrar-modal"></label>
@@ -157,7 +157,7 @@
                 <p>To receive news about concerts <a href="#">click here</a></p>
             </div>
 
-            <div class="btn-cerrar">
+            <div class="btn-cerrar" onclick="showNav()">
                 <label for="btn-modal-tour">Cerrar</label>
             </div>
         </div>
@@ -188,7 +188,7 @@
                 </div>
                 <br>
             </div>
-            <div class="btn-cerrar">
+            <div class="btn-cerrar" onclick="showNav()">
                 <label for="btn-modal-signup">Cerrar</label>
             </div>
         </div>
@@ -253,7 +253,7 @@
             <div class="register-link">
                 <p>If you have some problem about us products <a href="#">click here</a></p>
             </div>
-            <div class="btn-cerrar">
+            <div class="btn-cerrar" onclick="showNav()">
                 <label for="btn-modal-store">Cerrar</label>
             </div>
         </div>
