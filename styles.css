@@ -256,7 +256,7 @@ a:hover {
   grid-template-columns: auto auto auto;
   justify-content: space-between;
   width: 100%;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
 }
 
 .fecha,
@@ -285,7 +285,7 @@ a:hover {
 .logintitle {
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 20px;
   border-bottom: solid 2px greenyellow;
 }
@@ -372,7 +372,7 @@ input {
 }
 
 .banner-img {
-  height: 290px;
+  height: 250px;
 }
 
 .banner {
@@ -388,8 +388,8 @@ input {
 .banner-text {
   position: absolute;
   bottom: 10px;
-  right: 0px;
-  font-size: 70px;
+  right: 50px;
+  font-size: 50px;
 }
 
 @media (max-width: 630px) {
@@ -426,7 +426,7 @@ input {
   }
 
   .container-modal-store .content-modal {
-    height: 100vh;
+    height: 70vh;
   }
 
   .register-link {
